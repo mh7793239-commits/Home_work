@@ -1,3 +1,3 @@
 void main() {
-  int personsage;
+  int personsage = 20;
 }
