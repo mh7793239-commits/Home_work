@@ -7,7 +7,7 @@ void main() {
   double price = 180;
   bool isStudent = true;
   if (isStudent && price >= 150) {
-    double finalPrice = price / 15;
+    double finalPrice = price - 15;
     print(finalPrice);
   }
 }
