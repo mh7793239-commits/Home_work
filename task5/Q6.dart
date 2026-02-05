@@ -6,7 +6,7 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-  int number = Random().nextInt(21);
+  int number = Random().nextInt(20) + 1;
   for (int i = 0; i < 3; i++) {
     print("guess number");
     int n = int.parse(stdin.readLineSync()!);

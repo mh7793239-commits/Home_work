@@ -18,5 +18,5 @@ void multiplicatinTable(int n) {
     print("$n * $i = $res");
     sum += res;
   }
-  print("sum numbers is: $sum");
+  print("sum results is: $sum");
 }
