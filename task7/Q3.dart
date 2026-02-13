@@ -18,9 +18,9 @@ void main(List<String> args) {
     Movie("tattah 1", 10),
     Movie("tattah 2", 10)
   ];
-  for (var m in movies) {
-    if (m.rating! > 7) {
-      print(m.title);
+  for (var movie in movies) {
+    if (movie.rating! > 7) {
+      print(movie.title);
     }
   }
 }
