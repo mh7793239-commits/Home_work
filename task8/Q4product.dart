@@ -3,7 +3,7 @@ class Product {
   double _price = 0;
   double get price => _price;
   String get name => _name;
-  double get discountPrice => _price - _price * .1;
+  double get discountPrice => _price - (_price * .1);
   set price(double value) {
     if (value > 0) {
       _price = value;

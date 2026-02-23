@@ -1,3 +1,9 @@
+/*
+Q3
+Create a class Grade with a private field _score.
+- The setter should only accept values 0–100, otherwise print 'Invalid score'.
+- Add a getter and a computed getter isPass that returns true if score ³ 50.
+*/
 class Grade {
   double _score = 0;
   double get score => _score;
